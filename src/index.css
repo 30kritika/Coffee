@@ -6,3 +6,11 @@
   margin: 0;
   padding: 0;
 }
+@layer utilities{
+  .img-shadow{
+    filter: drop-shadow(40px 50px 25px #000000);
+  }
+  .img-shadow2{
+    filter: drop-shadow(10px 30px 15px #4949497a);
+  }
+}
