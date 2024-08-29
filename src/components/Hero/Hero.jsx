@@ -98,29 +98,32 @@ const Hero = () => {
         {/* side bar menu section */}
         {
           sidebar &&(
-            <div className="absolute top-0 right-0 w-[140px] 
-          h-full bg-gradient-to-b from-beige2/80 to-beige2/80 
-          backdrop--sm z-10">
-          <div className="w-full h-full flex justify-center items-center">
-            <div className="flex flex-col justify-center 
-              items-center gap-6 text-leftdark">
-              {/* social icons */}
-              <div className="inline-block p-2 rounded-full 
-                cursor-pointer border border-black">
-                <FaFacebookF className="text-2xl"/>
-              </div>
-              <div className="inline-block p-2 rounded-full 
-                cursor-pointer border border-black">
-                <FaTwitter className="text-2xl"/>
-              </div>
-              <div className="inline-block p-2 rounded-full 
-                cursor-pointer border border-black">
-                <FaInstagram className="text-2xl"/>
+            <motion.div 
+              initial={{x:"100%"}}
+              whileInView={{x:0}}
+              className="absolute top-0 right-0 w-[140px] 
+            h-full bg-gradient-to-b from-beige2/80 to-beige2/80 
+            backdrop--sm z-10">
+            <div className="w-full h-full flex justify-center items-center">
+              <div className="flex flex-col justify-center 
+                items-center gap-6 text-leftdark">
+                {/* social icons */}
+                <div className="inline-block p-2 rounded-full 
+                  cursor-pointer border border-black">
+                  <FaFacebookF className="text-2xl"/>
+                </div>
+                <div className="inline-block p-2 rounded-full 
+                  cursor-pointer border border-black">
+                  <FaTwitter className="text-2xl"/>
+                </div>
+                <div className="inline-block p-2 rounded-full 
+                  cursor-pointer border border-black">
+                  <FaInstagram className="text-2xl"/>
               </div>
 
             </div>
           </div>
-        </div>
+        </motion.div>
           )
         }
         

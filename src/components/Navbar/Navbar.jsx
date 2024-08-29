@@ -1,5 +1,3 @@
-import React from 'react'
-import logo from '/src/images/logo.png'
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { motion } from 'framer-motion';
 
@@ -19,8 +17,7 @@ const Navbar = ({sidebar, setSidebar}) => {
                 delay:0.2,
                }}
                 className='text-2xl font-semibold'>
-                <span className='text-lightbrown '>developer</span> beans.</motion.h1>
-            {/* <img src={logo} alt=''/> */}
+                <span className='text-lightbrown '>developer</span>beans.</motion.h1>
             {/* hamburger mennu section */}
             <motion.div
                 initial={{opacity:0, y:-100}}
