@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import matcha from '/src/images/matcha.png'
-import lavender from '/src/images/lavender.png'
-import aa from '/src/images/aa.png'
+import lavender from '/src/images/cold.png'
+import aa from '/src/images/iced.png'
 
 const proData=[
     {
@@ -13,13 +13,13 @@ const proData=[
     {
         id:2,
         image:lavender,
-        title:"Lavender Latte",
+        title:"Cold Coffee",
         subtitle:"lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         id:3,
         image:aa,
-        title:"London Fog Tea Latte",
+        title:"Iced vanilla latte coffee",
         subtitle:"lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
 ]
