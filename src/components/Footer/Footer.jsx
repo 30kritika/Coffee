@@ -3,7 +3,7 @@ import { BsFillPinMapFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div>
+    <main >
       <div className="bg-beige1 pt-12 pb-8 text-brown2">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ml-12">
           {/* company details */}
@@ -41,15 +41,15 @@ const Footer = () => {
           <div className="space-y-6 ml-12">
             <h1 className="text-3xl font-bold">Follow us</h1>
             <div className="flex gap-3">
-              <FaFacebook className="text-3xl hover:scale-105 duration-300" />
-              <FaInstagram className="text-3xl hover:scale-105 duration-300" />
-              <FaTelegram className="text-3xl hover:scale-105 duration-300" />
-              <FaGoogle className="text-3xl hover:scale-105 duration-300" />
+              <FaFacebook className="text-3xl hover:scale-105 duration-300 cursor-pointer" />
+              <FaInstagram className="text-3xl hover:scale-105 duration-300 cursor-pointer" />
+              <FaTelegram className="text-3xl hover:scale-105 duration-300 cursor-pointer" />
+              <FaGoogle className="text-3xl hover:scale-105 duration-300 cursor-pointer" />
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
