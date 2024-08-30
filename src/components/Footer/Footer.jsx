@@ -1,7 +1,5 @@
 import { FaFacebook, FaGoogle, FaInstagram, FaPhoneAlt, FaTelegram } from "react-icons/fa";
 import { BsFillPinMapFill } from "react-icons/bs";
-// import cc from '/src/images/credit-cards.webp'
-import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -49,10 +47,6 @@ const Footer = () => {
               <FaGoogle className="text-3xl hover:scale-105 duration-300" />
             </div>
           </div>
-
-          {/* <div>
-            <h1>Payment Methods</h1>
-          </div> */}
         </div>
       </div>
     </div>
